@@ -1,0 +1,120 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background: linear-gradient(90deg, black, dimgray);
+    border-bottom: 2px solid red;
+}
+
+.navbar-brand {
+    color: red !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: red !important;
+        transform: scale(1.1);
+    }
+
+
+.container {
+    padding: 20px;
+    background-color: dimgray;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px red;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+footer.footer {
+    background: black;
+    border-top: 2px solid red;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: lightgray;
+}
+
+    footer.footer a {
+        color: red;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        footer.footer a:hover {
+            color: white;
+        }
+
+
+.btn-dark-red {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .btn-dark-red:hover {
+        background-color: darkred;
+        transform: scale(1.05);
+    }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+}
+
+    table th, table td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid dimgray;
+        color: white;
+    }
+
+    table th {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+
+    table tr:nth-child(even) {
+        background-color: dimgray;
+    }
+
+    table tr:hover {
+        background-color: darkred;
+        color: white;
+    }
+
+a {
+    color: red;
+    transition: color 0.3s;
+}
+
+    a:hover {
+        color: white;
+    }
